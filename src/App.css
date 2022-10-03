@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  background-color: #def0f0;
+}
+
+.app-header {
+  text-align: left;
+  font-family: 'Roboto';
+  font-style: normal;
+  display: flex;
+  flex-direction: row;
+  padding: 30px 20px 10px 20px;
+
+}
+
+.horizontal-line {
+  width: 100%;
+  color: #5D5F7E;
+}
+
+.app-title {
+  color: #2E3156;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  line-height: 35px;
+  font-size: 30px;
+
+}
+
+.app-subtitle {
+  color: #5D5F7E;
+  font-weight: 500;
+  letter-spacing: 0em;
+  line-height: 23px;
+  font-size: 20px;
+}
+
+@media screen and (min-width:1024px) {
+  .app-header {
+    padding: 30px 50px 10px 70px;
+  }
+
+  .horizontal-line {
+    position: absolute;
+    transform: rotate(90deg);
+    width: 53px;
+    height: 0px;
+    left: 200px;
+    top: 50px;
+    border: 1px solid #5D5F7E;
+  }
+
+  .app-subtitle {
+    padding-left: 70px;
+  }
+}
+
+@import './css/search.css';
+@import './css/card.css';
+@import './css/details.css';
