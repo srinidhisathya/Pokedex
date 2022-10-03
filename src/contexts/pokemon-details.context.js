@@ -221,7 +221,7 @@ export const PokemonDetailsProvider = ({ children }) => {
 
   return (
     <PokemonDetailsContext.Provider
-      value={{ state, selectPokemon, setPokemonDetails, resetSelectedPokemon }}
+      value={{ state, selectPokemon, setPokemonDetails, resetFunction }}
     >
       {children}
     </PokemonDetailsContext.Provider>
